@@ -13,7 +13,7 @@ class PriorityQueueTest {
     private static Stream<Arguments> TestInputParameter(){
         return Stream.of(
                 // normal testcase
-                Arguments.of(new int[]{5, 2, 3, 4}, new int[]{2, 3, 10, 5}),
+                Arguments.of(new int[]{5, 2, 3, 4}, new int[]{2, 3, 4, 5}),
                 Arguments.of(new int[]{-2, 2, -10}, new int[]{-10, -2, 2}),
                 Arguments.of(new int[]{0, 1, -5, 3, 2}, new int[]{-5, 0, 1, 2, 3}),
                 Arguments.of(new int[]{0, 1, 0, 1, 0}, new int[]{0, 0, 0, 1, 1}),
